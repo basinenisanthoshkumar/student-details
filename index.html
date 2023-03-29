@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Student details form</h1>
+    <div class="form-body"> 
+      <form action="/action_page.php">
+        <label for="fname">Firstname</label>
+        <input type="text" id="fname" name="fname" autofocus>(max 50characters)</input><br><br>
+        <label for="lname">Lastname</label>
+        <input type="text" id="lname" name="lname">(max 50characters)</input><br><br>
+        <label for="email">Email id  </label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="mobile" >Mobile </label>
+        <input type="tel" id="mobile" name="number" placeholder="1234567890" maxlength="10" >&nbsp; &nbsp;   <span>(10 numbers)</span>         
+        <br><br>
+        <label for="gender" >Gender</label>
+        <input type="radio" id="gender" name="gender">male 
+        <input type="radio" id="gender" name="gender" min=1 >female <br><br>
+        <label for="Dob" >DOB</label>
+        <input type="date" id="Dob" name="Dob"><br> <br>
+        <label for="Address" >Address</address><br> 
+        <textarea id="address" name="address" rows="4" cols="100"></textarea>
+        <br><br>
+        <label for="city" >City</label>
+        <input type="text" id="City" name="City" ><br><br>
+        <label for="Pincode" >Pincode</label>
+        <input type="tel" id="Pincode" placeholder="123456" maxlength="6"><br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset"
+      
+
+
+
+
+      </form>
+    </div>
+  </body>
+</html>

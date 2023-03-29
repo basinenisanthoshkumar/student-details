@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  text-decoration:underline darkblue;
+  padding-top: 50px;
+ 
+  
+}
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  color: black;
+  background-color: white;
+}
+.form-body {
+  width:50%;
+  
+  margin: 10rem;
+  margin-top: 1rem;
+  border: 1px solid black;
+  padding : 5rem;
+  background: linear-gradient(to top, #ffff66 0%, #cc99ff 100%);
+  box-shadow: 5px 5px 5px 5px rgba(44, 226, 196, 0.479);
+  border-radius: 20px;
+  margin-left:460px;
+}
+#address {
+  width: 70%;
+}
+#email {
+  position: relative;
+  left: 11px;
+}
+#mobile {
+  position: relative;
+  left: 16px;
+}
+input:hover{
+  background-color:rgba(0, 0, 0, 0.178);
+}
